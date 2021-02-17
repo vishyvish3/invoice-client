@@ -182,7 +182,7 @@ const AddUser = () => {
                   <option value="Employee">Employee</option>
                 </select>
 
-                {type == "Employee" &&
+                {type === "Employee" &&
                   <select
                     name="spAccessValue"
                     id="spAccessValue"

@@ -4,7 +4,7 @@ import Sidenav from "../Sidenav";
 import {  useDispatch } from "react-redux";
 import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import { Pie } from 'react-chartjs-2';
+
 
 const Dash = () => {
   const [isLoading, setLoading] = useState(true);
