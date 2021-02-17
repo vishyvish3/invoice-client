@@ -49,7 +49,7 @@ const AddUser = () => {
       };
 
       const url =
-        "http://localhost:4050/api/employee/register";
+        "https://devvishal-invoice-server.herokuapp.com/api/employee/register";
       axios
         .post(url, request, {
           headers: headers,
@@ -71,7 +71,7 @@ const AddUser = () => {
     else if (type === "Manager") {
       // request.spAccessValue = "Yes"
       const url =
-        "http://localhost:4050/api/manager/register";
+        "https://devvishal-invoice-server.herokuapp.com/api/manager/register";
 
       axios
         .post(url, request, {
@@ -91,7 +91,7 @@ const AddUser = () => {
         });
     }
     else if (type === "Admin") {
-      const url = "http://localhost:4050/api/admin/register";
+      const url = "https://devvishal-invoice-server.herokuapp.com/api/admin/register";
       axios
         .post(url, request, {
           headers: headers,

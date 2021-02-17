@@ -20,7 +20,7 @@ const Invoice = () => {
 
   useEffect(() => {
     
-    const url = "http://localhost:4050/api/admindashboard/invoice";
+    const url = "https://devvishal-invoice-server.herokuapp.com/api/admindashboard/invoice";
     const getInvoice = async () => {
       const token = localStorage.getItem("token");
       axios({
@@ -49,7 +49,7 @@ const Invoice = () => {
     
     const text = searchText;
     setSearchText("");
-    const url = "http://localhost:4050/api/admindashboard/searchInvoice";
+    const url = "https://devvishal-invoice-server.herokuapp.com/api/admindashboard/searchInvoice";
     axios({
       url: url,
       method: "post",

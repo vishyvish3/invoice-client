@@ -25,7 +25,7 @@ const Invoice = ({ match }) => {
 
   const generatePDF = ()=>{ 
     const token = localStorage.getItem("token");
-    const generatePdfURL = "http://localhost:4050/api/managerdashboard/genearatePDF";
+    const generatePdfURL = "https://devvishal-invoice-server.herokuapp.com/api/managerdashboard/genearatePDF";
     
     const headers = {
       "auth-token": token,
@@ -50,7 +50,7 @@ const Invoice = ({ match }) => {
   };
   
 
-  const url = "http://localhost:4050/api/managerdashboard/invoice";
+  const url = "https://devvishal-invoice-server.herokuapp.com/api/managerdashboard/invoice";
 
   const delInvoice = (id) => {
     const token = localStorage.getItem("token");

@@ -19,7 +19,7 @@ const EmployeeChangePassword = () => {
     const [validEmail, setValidEmail] = useState(false);
     const [showEmailError, setShowEmailError] = useState(false);
     
-    const url = `http://localhost:4050/api/employee/changePassword`;
+    const url = `https://devvishal-invoice-server.herokuapp.com/api/employee/changePassword`;
 
     const validateAndSetEmail = (v) => {
         if (emailPattern.test(v)) {

@@ -14,7 +14,7 @@ const ManagerLogin = () => {
   const [password, setPassword] = useState("");
   const [isLoading, setLoading] = useState(false);
 
-  const url = `http://localhost:4050/api/manager/login`;
+  const url = `https://devvishal-invoice-server.herokuapp.com/api/manager/login`;
 
   const history = useHistory();
 
@@ -52,7 +52,7 @@ const ManagerLogin = () => {
     // const response = { email: email, password: password };
     // try {
     //   const result = await axios.post(
-    //     "http://localhost:4050/api/manager/login",
+    //     "https://devvishal-invoice-server.herokuapp.com/api/manager/login",
     //     response
     //   );
     //   setLoading(false);

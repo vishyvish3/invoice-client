@@ -16,7 +16,7 @@ const EmployeeLogin = () => {
 
   const history = useHistory();
 
-  const url = `http://localhost:4050/api/employee/login`;
+  const url = `https://devvishal-invoice-server.herokuapp.com/api/employee/login`;
 
   const ErrorNotify = (message) => toast.error(message);
 

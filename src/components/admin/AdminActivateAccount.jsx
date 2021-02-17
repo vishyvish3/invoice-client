@@ -13,7 +13,7 @@ const AdminActivateAccount = () => {
     useEffect(() => {
         const activateAccount = async (event) => {
             // setLoading(true);
-            const url = `http://localhost:4050/api/admin/activate_account`;
+            const url = `https://devvishal-invoice-server.herokuapp.com/api/admin/activate_account`;
             let urlWithParams = "";
             urlWithParams = window.location.href;    
             // event.preventDefault();

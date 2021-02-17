@@ -19,7 +19,7 @@ const ManagerChangePassword = () => {
     const [validEmail, setValidEmail] = useState(false);
     const [showEmailError, setShowEmailError] = useState(false);
     
-    const url = `http://localhost:4050/api/manager/changePassword`;
+    const url = `https://devvishal-invoice-server.herokuapp.com/api/manager/changePassword`;
 
     const validateAndSetEmail = (v) => {
         if (emailPattern.test(v)) {

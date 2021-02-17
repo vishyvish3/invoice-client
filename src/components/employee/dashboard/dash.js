@@ -19,7 +19,7 @@ const Dash = () => {
 
   useEffect(() => {
     const url =
-      "http://localhost:4050/api/employeedashboard/getCount";
+      "https://devvishal-invoice-server.herokuapp.com/api/employeedashboard/getCount";
 
     const getCount = async () => {
       const token = localStorage.getItem("token");

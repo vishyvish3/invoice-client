@@ -13,7 +13,7 @@ const ManagerActivateAccount = () => {
     useEffect(() => {
         const activateAccount = async (event) => {
             // setLoading(true);
-            const url = `http://localhost:4050/api/manager/activate_account`;
+            const url = `https://devvishal-invoice-server.herokuapp.com/api/manager/activate_account`;
             let urlWithParams = "";
             urlWithParams = window.location.href;    
             // event.preventDefault();

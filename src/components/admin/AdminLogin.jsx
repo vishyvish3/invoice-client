@@ -17,7 +17,7 @@ const AdminLogin = () => {
 
   const history = useHistory();
 
-  const url = `http://localhost:4050/api/admin/login`;
+  const url = `https://devvishal-invoice-server.herokuapp.com/api/admin/login`;
 
   const ErrorNotify = (message) => toast.error(message);
 

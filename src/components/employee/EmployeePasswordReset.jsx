@@ -14,8 +14,8 @@ const EmployeePasswordReset = () => {
     const history = useHistory();
     const [showPasswordError, setShowPasswordError] = useState(false);
     
-    const url = `http://localhost:4050/api/employee/verifyPasswordChange`;
-    const updatePasswordurl = `http://localhost:4050/api/employee/updatePassword`;
+    const url = `https://devvishal-invoice-server.herokuapp.com/api/employee/verifyPasswordChange`;
+    const updatePasswordurl = `https://devvishal-invoice-server.herokuapp.com/api/employee/updatePassword`;
     
 
 

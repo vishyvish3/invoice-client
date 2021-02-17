@@ -39,7 +39,7 @@ const AddUser = () => {
     };
 
     const url =
-      "http://localhost:4050/api/employee/register";
+      "https://devvishal-invoice-server.herokuapp.com/api/employee/register";
       axios
       .post(url, request, {
         headers: headers,

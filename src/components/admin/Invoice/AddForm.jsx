@@ -17,7 +17,7 @@ const AddForm = () => {
 
   const token = localStorage.getItem("token");
   const url =
-    "http://localhost:4050/api/admindashboard/invoice";
+    "https://devvishal-invoice-server.herokuapp.com/api/admindashboard/invoice";
 
   
   const senderEmail = localStorage.getItem("email");
